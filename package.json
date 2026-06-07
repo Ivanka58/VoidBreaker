@@ -1,0 +1,30 @@
+{
+  "name": "voidbreaker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "build-android": "cd android && ./gradlew assembleRelease"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.73.6",
+    "@react-native-async-storage/async-storage": "^1.21.0",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-sound": "^0.11.2",
+    "react-native-haptic-feedback": "^2.2.0",
+    "@react-native-community/blur": "^4.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/runtime": "^7.20.0",
+    "@react-native/babel-preset": "0.73.21",
+    "@react-native/eslint-config": "0.73.2",
+    "@react-native/metro-config": "0.73.5",
+    "@react-native/typescript-config": "0.73.1",
+    "typescript": "5.0.4"
+  }
+}
